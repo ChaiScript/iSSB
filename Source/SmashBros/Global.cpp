@@ -1,4 +1,4 @@
-
+	
 #include "Global.h"
 #include "ProjectileManager.h"
 #include "ItemManager.h"
@@ -7,6 +7,9 @@
 #include "P2PDataManager.h"
 #include "Magnifier.h"
 #include "Loader.h"
+
+#include "chaiscript.hpp"
+#include "chaiscript_stdlib.hpp"
 
 namespace SmashBros
 {
@@ -92,6 +95,15 @@ namespace SmashBros
 		{
 			itemsOn[i] = true;
 		}
+        
+        // Proof of concept for including ChaiScript. You'll want to actually
+        // create a ChaiScript initializer class probably that sets up the functions
+        // you care about
+        chaiscript::ChaiScript chai(chaiscript::Std_Lib::library());
+        int i = chai.eval<int>("4+3");
+        assert(i == 7);
+        
+        
 	}
 
 	String Global::getDirText(byte dir)

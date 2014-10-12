@@ -11,6 +11,11 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		96E07E3A19EB21E0002F7379 /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96E07E0F19EB21E0002F7379 /* description.txt */; };
+		96E07E3B19EB21E0002F7379 /* chaiscript_prelude.chai in Resources */ = {isa = PBXBuildFile; fileRef = 96E07E3319EB21E0002F7379 /* chaiscript_prelude.chai */; };
+		96E07E3C19EB21E0002F7379 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96E07E3719EB21E0002F7379 /* license.txt */; };
+		96E07E3D19EB21E0002F7379 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 96E07E3819EB21E0002F7379 /* readme.md */; };
+		96E07E3E19EB21E0002F7379 /* releasenotes.md in Resources */ = {isa = PBXBuildFile; fileRef = 96E07E3919EB21E0002F7379 /* releasenotes.md */; };
 		A00132FC17DF8FB1005B6829 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A00132FB17DF8FB1005B6829 /* Icon.png */; };
 		A006580317F8C09D00B54DF7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A006580217F8C09C00B54DF7 /* MessageUI.framework */; };
 		A05C8D72180780B600A30C28 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05C8D71180780B600A30C28 /* GameKit.framework */; };
@@ -138,6 +143,44 @@
 		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E07E0F19EB21E0002F7379 /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description.txt; sourceTree = "<group>"; };
+		96E07E1219EB21E0002F7379 /* chaiscript.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chaiscript.hpp; sourceTree = "<group>"; };
+		96E07E1319EB21E0002F7379 /* chaiscript_defines.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chaiscript_defines.hpp; sourceTree = "<group>"; };
+		96E07E1419EB21E0002F7379 /* chaiscript_stdlib.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chaiscript_stdlib.hpp; sourceTree = "<group>"; };
+		96E07E1519EB21E0002F7379 /* chaiscript_threading.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chaiscript_threading.hpp; sourceTree = "<group>"; };
+		96E07E1719EB21E0002F7379 /* any.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = any.hpp; sourceTree = "<group>"; };
+		96E07E1819EB21E0002F7379 /* bad_boxed_cast.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = bad_boxed_cast.hpp; sourceTree = "<group>"; };
+		96E07E1919EB21E0002F7379 /* bind_first.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = bind_first.hpp; sourceTree = "<group>"; };
+		96E07E1A19EB21E0002F7379 /* bootstrap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = bootstrap.hpp; sourceTree = "<group>"; };
+		96E07E1B19EB21E0002F7379 /* bootstrap_stl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = bootstrap_stl.hpp; sourceTree = "<group>"; };
+		96E07E1C19EB21E0002F7379 /* boxed_cast.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = boxed_cast.hpp; sourceTree = "<group>"; };
+		96E07E1D19EB21E0002F7379 /* boxed_cast_helper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = boxed_cast_helper.hpp; sourceTree = "<group>"; };
+		96E07E1E19EB21E0002F7379 /* boxed_number.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = boxed_number.hpp; sourceTree = "<group>"; };
+		96E07E1F19EB21E0002F7379 /* boxed_value.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = boxed_value.hpp; sourceTree = "<group>"; };
+		96E07E2019EB21E0002F7379 /* dispatchkit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dispatchkit.hpp; sourceTree = "<group>"; };
+		96E07E2119EB21E0002F7379 /* dynamic_cast_conversion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dynamic_cast_conversion.hpp; sourceTree = "<group>"; };
+		96E07E2219EB21E0002F7379 /* dynamic_object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dynamic_object.hpp; sourceTree = "<group>"; };
+		96E07E2319EB21E0002F7379 /* exception_specification.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = exception_specification.hpp; sourceTree = "<group>"; };
+		96E07E2419EB21E0002F7379 /* function_call.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = function_call.hpp; sourceTree = "<group>"; };
+		96E07E2519EB21E0002F7379 /* function_call_detail.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = function_call_detail.hpp; sourceTree = "<group>"; };
+		96E07E2619EB21E0002F7379 /* handle_return.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = handle_return.hpp; sourceTree = "<group>"; };
+		96E07E2719EB21E0002F7379 /* operators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = operators.hpp; sourceTree = "<group>"; };
+		96E07E2819EB21E0002F7379 /* proxy_constructors.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = proxy_constructors.hpp; sourceTree = "<group>"; };
+		96E07E2919EB21E0002F7379 /* proxy_functions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = proxy_functions.hpp; sourceTree = "<group>"; };
+		96E07E2A19EB21E0002F7379 /* proxy_functions_detail.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = proxy_functions_detail.hpp; sourceTree = "<group>"; };
+		96E07E2B19EB21E0002F7379 /* register_function.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = register_function.hpp; sourceTree = "<group>"; };
+		96E07E2C19EB21E0002F7379 /* type_info.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = type_info.hpp; sourceTree = "<group>"; };
+		96E07E2E19EB21E0002F7379 /* chaiscript_algebraic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chaiscript_algebraic.hpp; sourceTree = "<group>"; };
+		96E07E2F19EB21E0002F7379 /* chaiscript_common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chaiscript_common.hpp; sourceTree = "<group>"; };
+		96E07E3019EB21E0002F7379 /* chaiscript_engine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chaiscript_engine.hpp; sourceTree = "<group>"; };
+		96E07E3119EB21E0002F7379 /* chaiscript_eval.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chaiscript_eval.hpp; sourceTree = "<group>"; };
+		96E07E3219EB21E0002F7379 /* chaiscript_parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chaiscript_parser.hpp; sourceTree = "<group>"; };
+		96E07E3319EB21E0002F7379 /* chaiscript_prelude.chai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chaiscript_prelude.chai; sourceTree = "<group>"; };
+		96E07E3419EB21E0002F7379 /* chaiscript_prelude_docs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chaiscript_prelude_docs.hpp; sourceTree = "<group>"; };
+		96E07E3619EB21E0002F7379 /* utility.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utility.hpp; sourceTree = "<group>"; };
+		96E07E3719EB21E0002F7379 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		96E07E3819EB21E0002F7379 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		96E07E3919EB21E0002F7379 /* releasenotes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = releasenotes.md; sourceTree = "<group>"; };
 		A00132FB17DF8FB1005B6829 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		A006580217F8C09C00B54DF7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		A05C8D71180780B600A30C28 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
@@ -490,6 +533,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				96E07E0E19EB21E0002F7379 /* ChaiScript */,
 				A0A7FC97195A2FDF003924CD /* Source */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				A0AED98B17C2E0F70002DD96 /* SDL */,
@@ -534,6 +578,91 @@
 				A05C8D71180780B600A30C28 /* GameKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96E07E0E19EB21E0002F7379 /* ChaiScript */ = {
+			isa = PBXGroup;
+			children = (
+				96E07E0F19EB21E0002F7379 /* description.txt */,
+				96E07E1019EB21E0002F7379 /* include */,
+				96E07E3719EB21E0002F7379 /* license.txt */,
+				96E07E3819EB21E0002F7379 /* readme.md */,
+				96E07E3919EB21E0002F7379 /* releasenotes.md */,
+			);
+			path = ChaiScript;
+			sourceTree = "<group>";
+		};
+		96E07E1019EB21E0002F7379 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				96E07E1119EB21E0002F7379 /* chaiscript */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		96E07E1119EB21E0002F7379 /* chaiscript */ = {
+			isa = PBXGroup;
+			children = (
+				96E07E1219EB21E0002F7379 /* chaiscript.hpp */,
+				96E07E1319EB21E0002F7379 /* chaiscript_defines.hpp */,
+				96E07E1419EB21E0002F7379 /* chaiscript_stdlib.hpp */,
+				96E07E1519EB21E0002F7379 /* chaiscript_threading.hpp */,
+				96E07E1619EB21E0002F7379 /* dispatchkit */,
+				96E07E2D19EB21E0002F7379 /* language */,
+				96E07E3519EB21E0002F7379 /* utility */,
+			);
+			path = chaiscript;
+			sourceTree = "<group>";
+		};
+		96E07E1619EB21E0002F7379 /* dispatchkit */ = {
+			isa = PBXGroup;
+			children = (
+				96E07E1719EB21E0002F7379 /* any.hpp */,
+				96E07E1819EB21E0002F7379 /* bad_boxed_cast.hpp */,
+				96E07E1919EB21E0002F7379 /* bind_first.hpp */,
+				96E07E1A19EB21E0002F7379 /* bootstrap.hpp */,
+				96E07E1B19EB21E0002F7379 /* bootstrap_stl.hpp */,
+				96E07E1C19EB21E0002F7379 /* boxed_cast.hpp */,
+				96E07E1D19EB21E0002F7379 /* boxed_cast_helper.hpp */,
+				96E07E1E19EB21E0002F7379 /* boxed_number.hpp */,
+				96E07E1F19EB21E0002F7379 /* boxed_value.hpp */,
+				96E07E2019EB21E0002F7379 /* dispatchkit.hpp */,
+				96E07E2119EB21E0002F7379 /* dynamic_cast_conversion.hpp */,
+				96E07E2219EB21E0002F7379 /* dynamic_object.hpp */,
+				96E07E2319EB21E0002F7379 /* exception_specification.hpp */,
+				96E07E2419EB21E0002F7379 /* function_call.hpp */,
+				96E07E2519EB21E0002F7379 /* function_call_detail.hpp */,
+				96E07E2619EB21E0002F7379 /* handle_return.hpp */,
+				96E07E2719EB21E0002F7379 /* operators.hpp */,
+				96E07E2819EB21E0002F7379 /* proxy_constructors.hpp */,
+				96E07E2919EB21E0002F7379 /* proxy_functions.hpp */,
+				96E07E2A19EB21E0002F7379 /* proxy_functions_detail.hpp */,
+				96E07E2B19EB21E0002F7379 /* register_function.hpp */,
+				96E07E2C19EB21E0002F7379 /* type_info.hpp */,
+			);
+			path = dispatchkit;
+			sourceTree = "<group>";
+		};
+		96E07E2D19EB21E0002F7379 /* language */ = {
+			isa = PBXGroup;
+			children = (
+				96E07E2E19EB21E0002F7379 /* chaiscript_algebraic.hpp */,
+				96E07E2F19EB21E0002F7379 /* chaiscript_common.hpp */,
+				96E07E3019EB21E0002F7379 /* chaiscript_engine.hpp */,
+				96E07E3119EB21E0002F7379 /* chaiscript_eval.hpp */,
+				96E07E3219EB21E0002F7379 /* chaiscript_parser.hpp */,
+				96E07E3319EB21E0002F7379 /* chaiscript_prelude.chai */,
+				96E07E3419EB21E0002F7379 /* chaiscript_prelude_docs.hpp */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		96E07E3519EB21E0002F7379 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				96E07E3619EB21E0002F7379 /* utility.hpp */,
+			);
+			path = utility;
 			sourceTree = "<group>";
 		};
 		A0A7FC97195A2FDF003924CD /* Source */ = {
@@ -1056,11 +1185,16 @@
 				A0AED9F517C2E0F70002DD96 /* SDL_config.h.cmake in Resources */,
 				A0AED9F617C2E0F70002DD96 /* SDL_config.h.in in Resources */,
 				A0BF9FEE17DA4C2900ECBEF4 /* Fonts in Resources */,
+				96E07E3B19EB21E0002F7379 /* chaiscript_prelude.chai in Resources */,
 				A00132FC17DF8FB1005B6829 /* Icon.png in Resources */,
 				A0FB9C9B17EE153200A2EBBE /* Music in Resources */,
 				A088D52517F48E9D001E85E5 /* Sounds in Resources */,
+				96E07E3A19EB21E0002F7379 /* description.txt in Resources */,
 				A0A7F8C5195A2A4D003924CD /* Default-568h@2x.png in Resources */,
+				96E07E3D19EB21E0002F7379 /* readme.md in Resources */,
 				A0A7F8C6195A2A4D003924CD /* Default-LandscapeLeft.png in Resources */,
+				96E07E3C19EB21E0002F7379 /* license.txt in Resources */,
+				96E07E3E19EB21E0002F7379 /* releasenotes.md in Resources */,
 				A0A7F8C7195A2A4D003924CD /* Default-LandscapeRight.png in Resources */,
 				A0A7F8C8195A2A4D003924CD /* Default@2x~iphone.png in Resources */,
 				A0A7F8C9195A2A4D003924CD /* Default~iphone.png in Resources */,
